@@ -31,7 +31,7 @@ body {
 
 /* additional sections */
 #home {
-  background: url(/dev/img/sushi1.jpg) no-repeat center center fixed; 
+  background: url(../img/sushi1.jpg) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
@@ -62,7 +62,7 @@ body {
 }
 
 #about {
-  background: url(/dev/img/sushi2.jpg) no-repeat center center fixed; 
+  background: url(../img/sushi2.jpg) no-repeat center center fixed; 
   display: table;
   height: 800px;
   position: relative;
@@ -77,7 +77,7 @@ body {
 }
 
 #sushiHead {
-  background: url(/dev/img/sushihead.jpg);
+  background: url(../img/sushihead.jpg);
   background-repeat: repeat-x;
   height: 700px;
 }
@@ -102,11 +102,11 @@ footer .glyphicon:hover {
 
 @font-face {
     font-family: 'si';
-    src: url('/dev/fonts/socicon.eot');
-    src: url('/dev/fonts/socicon.eot?#iefix') format('embedded-opentype'),
-         url('/dev/fonts/socicon.woff') format('woff'),
-         url('/dev/fonts/socicon.ttf') format('truetype'),
-         url('/dev/fonts/socicon.svg#icomoonregular') format('svg');
+    src: url('../fonts/socicon.eot');
+    src: url('../fonts/socicon.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/socicon.woff') format('woff'),
+         url('../fonts/socicon.ttf') format('truetype'),
+         url('../fonts/socicon.svg#icomoonregular') format('svg');
     font-weight: normal;
     font-style: normal;
  
@@ -115,7 +115,7 @@ footer .glyphicon:hover {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     @font-face {
         font-family:si;
-        src: url(/dev/fonts/socicon.svg) format(svg);
+        src: url(../fonts/socicon.svg) format(svg);
     }
 }
 
